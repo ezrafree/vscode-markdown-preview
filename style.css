@@ -1,0 +1,29 @@
+.vscode-body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 720px;
+  min-width: 320px;
+  padding: 20px 40px;
+}
+
+.vscode-body table {
+  margin-bottom: 12px;
+}
+
+.vscode-body th,
+.vscode-body td {
+  border: 1px solid;
+}
+
+.vscode-body td {
+  vertical-align: top;
+}
+
+.vscode-body blockquote {
+  margin: 12px 0 12px 0 !important;
+  padding: 5px 16px 5px 10px !important;
+}
+
+.vscode-body blockquote p:last-child {
+  margin-bottom: 0;
+}
