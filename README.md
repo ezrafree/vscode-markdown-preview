@@ -4,7 +4,9 @@ This VS Code extension adjusts the styles of the markdown preview.
 
 ## Features
 
-Adds padding to blockquotes.
+- Adds margin and padding to blockquotes.
+- Adds borders to tables.
+- Sets a max-width for easier reading.
 
 ## Known Issues
 
