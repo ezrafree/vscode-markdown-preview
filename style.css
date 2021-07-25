@@ -6,6 +6,8 @@
   padding: 20px 40px;
 }
 
+/* tables */
+
 .vscode-body table {
   margin-bottom: 12px;
 }
@@ -19,6 +21,8 @@
   vertical-align: top;
 }
 
+/* blockquotes */
+
 .vscode-body blockquote {
   margin: 12px 0 12px 0 !important;
   padding: 5px 16px 5px 10px !important;
@@ -26,4 +30,34 @@
 
 .vscode-body blockquote p:last-child {
   margin-bottom: 0;
+}
+
+/* checkboxes */
+
+.vscode-body input.task-list-item-checkbox[type="checkbox"]:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.vscode-body input.task-list-item-checkbox[type="checkbox"] {
+  background-color: #ddd;
+  border-radius: 2px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+}
+
+.vscode-body input.task-list-item-checkbox[type="checkbox"]:checked {
+  background-color: #409fd6;
+  background: #409fd6
+    url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==")
+    3px 3px no-repeat;
+}
+
+.vscode-body input.task-list-item-checkbox[type="checkbox"]:disabled {
+  cursor: default;
 }
