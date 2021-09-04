@@ -48,7 +48,7 @@
   height: 17px;
   cursor: pointer;
   position: relative;
-  top: 5px;
+  top: 2px;
 }
 
 .vscode-body input.task-list-item-checkbox[type="checkbox"]:checked {
