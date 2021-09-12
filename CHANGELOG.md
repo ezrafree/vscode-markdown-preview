@@ -2,6 +2,10 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## 0.0.5
+
+- Increase max-width to 838px
+
 ## 0.0.4
 
 - Specify less space above the markdown checkboxes

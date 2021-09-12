@@ -28,6 +28,14 @@ There are no known issues at this time, please reach out if you discover anythin
 
 ## Release Notes
 
+### 0.0.5
+
+Increase max-width to 838px
+
+### 0.0.4
+
+Specify less space above the markdown checkboxes
+
 ### 0.0.3
 
 Update README document
