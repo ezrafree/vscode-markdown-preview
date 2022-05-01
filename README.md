@@ -1,3 +1,4 @@
+<!-- markdownlint-disable no-inline-html -->
 # VS Code Markdown Styles
 
 This VS Code extension adjusts the styles of the markdown preview.
@@ -27,6 +28,10 @@ git clone git@github.com:ezrafree/vscode-markdown-preview.git ezrafree.markdown-
 There are no known issues at this time, please reach out if you discover anything.
 
 ## Release Notes
+
+### 0.0.6
+
+Styled the <kbd>kbd</kbd> elements
 
 ### 0.0.5
 
