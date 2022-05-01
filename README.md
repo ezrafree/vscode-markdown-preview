@@ -29,6 +29,10 @@ There are no known issues at this time, please reach out if you discover anythin
 
 ## Release Notes
 
+### 0.0.7
+
+Add bugfix to `kbd` styles
+
 ### 0.0.6
 
 Styled the <kbd>kbd</kbd> elements
