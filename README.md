@@ -29,6 +29,10 @@ There are no known issues at this time, please reach out if you discover anythin
 
 ## Release Notes
 
+### 0.0.10
+
+Restyle the `kbd` element
+
 ### 0.0.9
 
 Fix bottom border on `kbd` elements

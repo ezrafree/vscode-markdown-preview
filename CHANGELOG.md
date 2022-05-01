@@ -3,6 +3,10 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [0.0.10]
+
+- Restyle the `kbd` element
+
 ## [0.0.9]
 
 - Fix bottom border on `kbd` elements
