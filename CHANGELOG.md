@@ -3,6 +3,10 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [0.0.8]
+
+- Add bugfix to `kbd` styles
+
 ## [0.0.7]
 
 - Add bugfix to `kbd` styles
