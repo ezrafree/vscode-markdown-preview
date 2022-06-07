@@ -40,22 +40,23 @@
 
 .vscode-body input.task-list-item-checkbox[type="checkbox"] {
   background-color: #ddd;
-  border-radius: 2px;
+  border-radius: .14rem;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  width: 17px;
-  height: 17px;
+  width: 1.2rem;
+  height: 1.2rem;
   cursor: pointer;
   position: relative;
-  top: 2px;
+  top: .14rem;
 }
 
 .vscode-body input.task-list-item-checkbox[type="checkbox"]:checked {
   background-color: #409fd6;
-  background: #409fd6
-    url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==")
-    3px 3px no-repeat;
+  background-image: url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
 }
 
 .vscode-body input.task-list-item-checkbox[type="checkbox"]:disabled {
