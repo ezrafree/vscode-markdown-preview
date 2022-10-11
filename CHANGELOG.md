@@ -1,6 +1,31 @@
+<!-- markdownlint-disable no-inline-html -->
 # Change Log
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
+
+## [0.0.10]
+
+- Restyle the `kbd` element
+
+## [0.0.9]
+
+- Fix bottom border on `kbd` elements
+
+## [0.0.8]
+
+- Add bugfix to `kbd` styles
+
+## [0.0.7]
+
+- Add bugfix to `kbd` styles
+
+## 0.0.6
+
+- Styled the <kbd>kbd</kbd> elements
+
+## 0.0.5
+
+- Increase max-width to 838px
 
 ## 0.0.4
 
