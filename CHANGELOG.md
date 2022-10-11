@@ -3,6 +3,14 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [0.1.1]
+
+- Use theme CSS variables
+
+## [0.1.0]
+
+- Use theme CSS variables
+
 ## [0.0.10]
 
 - Restyle the `kbd` element
