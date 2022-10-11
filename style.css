@@ -34,12 +34,15 @@
 
 /* checkboxes */
 
-.vscode-body input.task-list-item-checkbox[type="checkbox"]:focus {
+.vscode-dark input.task-list-item-checkbox[type="checkbox"]:focus {
   outline: 1px solid rgba(0, 0, 0, 0.2);
+}
+.vscode-light input.task-list-item-checkbox[type="checkbox"]:focus {
+  outline: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .vscode-body input.task-list-item-checkbox[type="checkbox"] {
-  background-color: #ddd;
+  background-color: var(--vscode-icon-foreground);
   border-radius: 2px;
   appearance: none;
   -webkit-appearance: none;
@@ -52,8 +55,8 @@
 }
 
 .vscode-body input.task-list-item-checkbox[type="checkbox"]:checked {
-  background-color: #409fd6;
-  background: #409fd6
+  background-color: var(--vscode-editorInfo-foreground);
+  background: var(--vscode-editorInfo-foreground)
     url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==")
     3px 3px no-repeat;
 }
