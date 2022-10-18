@@ -3,6 +3,12 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [0.1.2]
+
+- Set fallback colors
+- Honor user's theme colors
+- Maintain styling and positioning when zooming in/out
+
 ## [0.1.1]
 
 - Use theme CSS variables
