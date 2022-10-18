@@ -42,21 +42,21 @@
 }
 
 .vscode-body input.task-list-item-checkbox[type="checkbox"] {
-  background-color: var(--vscode-icon-foreground);
-  border-radius: 2px;
+  background-color: var(--vscode-icon-foreground, #ddd);
+  border-radius: .14rem;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  width: 17px;
-  height: 17px;
+  width: 1.2rem;
+  height: 1.2rem;
   cursor: pointer;
   position: relative;
-  top: 2px;
+  top: .14rem;
 }
 
 .vscode-body input.task-list-item-checkbox[type="checkbox"]:checked {
-  background-color: var(--vscode-editorInfo-foreground);
-  background: var(--vscode-editorInfo-foreground)
+  background-color: var(--vscode-editorInfo-foreground, #409fd6);
+  background: var(--vscode-editorInfo-foreground, #409fd6)
     url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==")
     3px 3px no-repeat;
 }
