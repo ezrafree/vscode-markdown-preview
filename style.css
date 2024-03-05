@@ -32,6 +32,12 @@
   margin-bottom: 0;
 }
 
+/* horizontal rules */
+
+.vscode-body hr {
+  height: 0.0125rem !important;
+}
+
 /* checkboxes */
 
 .vscode-dark input.task-list-item-checkbox[type="checkbox"]:focus {
