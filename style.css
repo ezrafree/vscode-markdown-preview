@@ -87,3 +87,14 @@
   line-height: 10px;
   vertical-align: middle;
 }
+
+/* code elements */
+
+.vscode-body code {
+  color: var(--vscode-editor-foreground, #fafbfc) !important;
+}
+
+/* markdown extended - admonitions fixes */
+.vscode-body .markdown-body .admonition p:not(.admonition-title) {
+  margin-top: 16px !important;
+}
