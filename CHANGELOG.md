@@ -4,6 +4,10 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [0.1.4]
+
+- Adjust color value of table borders
+
 ## [0.1.3]
 
 - Adjust color value of code elements
