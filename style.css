@@ -94,6 +94,12 @@
   color: var(--vscode-editor-foreground, #fafbfc) !important;
 }
 
+/* highlight-js comments */
+
+.hljs-comment {
+    font-style: normal !important;
+}
+
 /* markdown extended - admonitions fixes */
 .vscode-body .markdown-body .admonition p:not(.admonition-title) {
   margin-top: 16px !important;
