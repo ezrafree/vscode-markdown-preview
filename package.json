@@ -2,8 +2,9 @@
 	"name": "markdown-preview",
 	"displayName": "Markdown Preview",
 	"description": "Improves VS Code's built-in markdown preview styling, without overriding your theme's colors",
-	"version": "0.1.2",
+	"version": "0.1.5",
 	"publisher": "ezrafree",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ezrafree/vscode-markdown-preview"
@@ -27,10 +28,10 @@
 		"test": "node ./test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.54.0",
 		"@types/glob": "^7.1.3",
 		"@types/mocha": "^8.0.4",
 		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.54.0",
 		"eslint": "^7.19.0",
 		"glob": "^7.1.6",
 		"mocha": "^8.2.1",

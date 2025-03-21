@@ -1,7 +1,20 @@
 <!-- markdownlint-disable no-inline-html -->
+
 # Change Log
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
+
+## [0.1.5]
+
+- Set Highlight-js comments to normal font style
+
+## [0.1.4]
+
+- Adjust color value of table borders
+
+## [0.1.3]
+
+- Adjust color value of code elements
 
 ## [0.1.2]
 
