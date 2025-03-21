@@ -14,7 +14,7 @@
 
 .vscode-body th,
 .vscode-body td {
-  border: 1px solid;
+  border: 1px solid var(--vscode-editorWidget-border);
 }
 
 .vscode-body td {
@@ -30,6 +30,12 @@
 
 .vscode-body blockquote p:last-child {
   margin-bottom: 0;
+}
+
+/* horizontal rules */
+
+.vscode-body hr {
+  height: 0.0125rem !important;
 }
 
 /* checkboxes */
@@ -80,4 +86,21 @@
   font: 11px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   line-height: 10px;
   vertical-align: middle;
+}
+
+/* code elements */
+
+.vscode-body code {
+  color: var(--vscode-editor-foreground, #fafbfc) !important;
+}
+
+/* highlight-js comments */
+
+.hljs-comment {
+    font-style: normal !important;
+}
+
+/* markdown extended - admonitions fixes */
+.vscode-body .markdown-body .admonition p:not(.admonition-title) {
+  margin-top: 16px !important;
 }
