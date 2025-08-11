@@ -36,7 +36,7 @@
 		"glob": "^11.0.3",
 		"mocha": "^11.1.0",
 		"typescript": "^5.9.2",
-		"vscode-test": "^1.5.0"
+		"vscode-test": "^1.6.1"
 	},
 	"__metadata": {
 		"id": "1a944173-5048-4a9b-b1e2-7dec5e78ebe4",
