@@ -18,6 +18,10 @@
 	"activationEvents": [],
 	"main": "./extension.js",
 	"contributes": {
+		"markdown.markdownItPlugins": true,
+		"markdown.previewScripts": [
+			"./preview.js"
+		],
 		"markdown.previewStyles": [
 			"./style.css"
 		]

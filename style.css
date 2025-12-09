@@ -104,3 +104,51 @@
 .vscode-body .markdown-body .admonition p:not(.admonition-title) {
   margin-top: 16px !important;
 }
+
+/* ================================================== */
+
+/* code block copy button */
+
+.code-block-wrapper {
+  position: relative;
+}
+
+.copy-code-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px 6px;
+  background: var(--vscode-button-secondaryBackground, #3a3d41);
+  border: 1px solid var(--vscode-editorWidget-border, #454545);
+  border-radius: 4px;
+  color: var(--vscode-button-secondaryForeground, #ccc);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-block-wrapper:hover .copy-code-btn {
+  opacity: 1;
+}
+
+.copy-code-btn:hover {
+  background: var(--vscode-button-secondaryHoverBackground, #505050);
+}
+
+.copy-code-btn .check-icon {
+  display: none;
+  color: var(--vscode-testing-iconPassed, #73c991);
+}
+
+.copy-code-btn.copied .copy-icon {
+  display: none;
+}
+
+.copy-code-btn.copied .check-icon {
+  display: block;
+}
+
+/* ================================================== */
