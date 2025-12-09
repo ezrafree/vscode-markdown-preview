@@ -3,8 +3,11 @@
 
 This VS Code extension adjusts the styles of the markdown preview.
 
+![Copy button demo](images/code-block-copy.png)
+
 ## Features
 
+- Adds copy buttons to fenced code blocks.
 - Adds margin and padding to blockquotes.
 - Adds borders to tables.
 - Sets a max-width for easier reading.
@@ -19,7 +22,7 @@ This extension can be installed through the VS Code Marketplace:
 For development, you can also install manually through git:
 
 ```sh
-cd ~/.vscode/extensions
+cd ~/.vscode/extensions &&
 git clone git@github.com:ezrafree/vscode-markdown-preview.git ezrafree.markdown-preview
 ```
 

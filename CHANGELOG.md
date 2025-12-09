@@ -4,6 +4,10 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [0.2.1]
+
+- Update README to include screenshot
+
 ## [0.2]
 
 - Implement copy buttons on fenced code blocks
