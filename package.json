@@ -2,7 +2,7 @@
 	"name": "markdown-preview",
 	"displayName": "Markdown Preview",
 	"description": "Improves VS Code's built-in markdown preview styling, without overriding your theme's colors",
-	"version": "0.1.5",
+	"version": "0.2.0",
 	"publisher": "ezrafree",
 	"license": "MIT",
 	"repository": {
@@ -10,7 +10,7 @@
 		"url": "https://github.com/ezrafree/vscode-markdown-preview"
 	},
 	"engines": {
-		"vscode": "^1.54.0"
+		"vscode": "^1.105.0"
 	},
 	"categories": [
 		"Other"
