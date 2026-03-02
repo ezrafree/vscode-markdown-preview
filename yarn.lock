@@ -161,10 +161,10 @@
   dependencies:
     undici-types "~7.16.0"
 
-"@types/vscode@^1.106.1":
-  version "1.106.1"
-  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.106.1.tgz#c8c9591b4b9debd8cf67b46d5e5ef54bdec9b805"
-  integrity sha512-R/HV8u2h8CAddSbX8cjpdd7B8/GnE4UjgjpuGuHcbp1xV6yh4OeqU4L1pKjlwujCrSFS0MOpwJAIs/NexMB1fQ==
+"@types/vscode@^1.109.0":
+  version "1.109.0"
+  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.109.0.tgz#062dfddf5f7df9cf36038e900ae67421ae69091b"
+  integrity sha512-0Pf95rnwEIwDbmXGC08r0B4TQhAbsHQ5UyTIgVgoieDe4cOnf92usuR5dEczb6bTKEp7ziZH4TV1TRGPPCExtw==
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
