@@ -8,7 +8,7 @@
     if (!codeElement) return;
 
     try {
-      await navigator.clipboard.writeText(codeElement.textContent || "");
+      await navigator.clipboard.writeText((codeElement.textContent || "").replace(/\n$/, ""));
 
       button.classList.add("copied");
       setTimeout(() => button.classList.remove("copied"), 2000);
