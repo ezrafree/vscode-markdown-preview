@@ -1,6 +1,15 @@
 <!-- markdownlint-disable no-inline-html -->
 # VS Code Markdown Styles
 
+<p>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ezrafree.markdown-preview">
+    <img src="https://vsmarketplacebadges.dev/version/ezrafree.markdown-preview.svg" alt="Version" />
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ezrafree.markdown-preview">
+    <img src="https://vsmarketplacebadges.dev/installs/ezrafree.markdown-preview.svg" alt="Installs" />
+  </a>
+</p>
+
 This VS Code extension adjusts the styles of the markdown preview.
 
 ![Copy button demo](images/code-block-copy.png)
