@@ -29,19 +29,16 @@
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "yarn run lint",
-		"test": "node ./test/runTest.js"
+		"test": "mocha --ui tdd 'test/**/*.test.js'"
 	},
 	"devDependencies": {
-		"@types/glob": "^9.0.0",
 		"@types/mocha": "^10.0.10",
 		"@types/node": "^25.6.0",
 		"@types/vscode": "^1.116.0",
 		"eslint": "^10.2.1",
-		"glob": "^13.0.6",
 		"globals": "^17.5.0",
 		"mocha": "^11.7.5",
-		"typescript": "^6.0.3",
-		"vscode-test": "^1.6.1"
+		"typescript": "^6.0.3"
 	},
 	"__metadata": {
 		"id": "1a944173-5048-4a9b-b1e2-7dec5e78ebe4",

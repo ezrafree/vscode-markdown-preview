@@ -2,6 +2,9 @@ const globals = require('globals');
 
 module.exports = [
   {
+    ignores: ['.vscode-test/**'],
+  },
+  {
     files: ['**/*.js'],
     languageOptions: {
       ecmaVersion: 2020,
