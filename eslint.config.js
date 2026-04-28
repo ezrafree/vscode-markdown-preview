@@ -1,6 +1,6 @@
-const globals = require('globals');
+import globals from 'globals';
 
-module.exports = [
+export default [
   {
     ignores: ['.vscode-test/**'],
   },
@@ -8,7 +8,7 @@ module.exports = [
     files: ['**/*.js'],
     languageOptions: {
       ecmaVersion: 2020,
-      sourceType: 'commonjs',
+      sourceType: 'module',
       globals: {
         ...globals.node,
         ...globals.es2020,
@@ -35,6 +35,7 @@ module.exports = [
   {
     files: ['preview.js'],
     languageOptions: {
+      sourceType: 'script',
       globals: {
         ...globals.browser,
       },

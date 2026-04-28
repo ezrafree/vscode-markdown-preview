@@ -27,4 +27,4 @@ function activate(_context) {
 
 function deactivate() {}
 
-module.exports = { activate, deactivate };
+export { activate, deactivate };

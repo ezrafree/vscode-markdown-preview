@@ -1,5 +1,5 @@
-const assert = require('assert');
-const { activate } = require('../../extension');
+import assert from 'assert';
+import { activate } from '../../extension.js';
 
 function createMockMd(fenceHtml) {
   return {
