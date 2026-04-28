@@ -4,6 +4,20 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [1.0.2]
+
+- Rename `style.css` to `styles.css`
+- Add a CLAUDE.md file
+
+## [1.0.1]
+
+- Increase the z-index of the copy button on fenced code blocks
+
+## [1.0.0]
+
+- Remove the new line at the of copied code blocks
+- Bugfixes and package patches
+
 ## [0.2.1]
 
 - Update README to include screenshot

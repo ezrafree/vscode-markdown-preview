@@ -1,4 +1,4 @@
-<!-- markdownlint-disable no-inline-html -->
+<!-- markdownlint-disable no-inline-html MD045 -->
 # VS Code Markdown Styles
 
 <p>
@@ -28,13 +28,6 @@ This extension can be installed through the VS Code Marketplace:
 
 [https://marketplace.visualstudio.com/items?itemName=ezrafree.markdown-preview](https://marketplace.visualstudio.com/items?itemName=ezrafree.markdown-preview)
 
-For development, you can also install manually through git:
+## My Other Extensions
 
-```sh
-cd ~/.vscode/extensions &&
-git clone git@github.com:ezrafree/vscode-markdown-preview.git ezrafree.markdown-preview
-```
-
-## Known Issues
-
-There are no known issues at this time, please reach out if you discover anything.
+> Also check out [EZ Snippets](https://marketplace.visualstudio.com/items?itemName=ezrafree.ez-snippets), a collection of useful code snippets for web development.

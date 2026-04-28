@@ -2,7 +2,7 @@
 	"name": "markdown-preview",
 	"displayName": "Markdown Preview",
 	"description": "Improves VS Code's built-in markdown preview styling, without overriding your theme's colors",
-	"version": "1.0.1",
+	"version": "1.0.0",
 	"publisher": "ezrafree",
 	"license": "MIT",
 	"repository": {
@@ -23,7 +23,7 @@
 			"./preview.js"
 		],
 		"markdown.previewStyles": [
-			"./style.css"
+			"./styles.css"
 		]
 	},
 	"scripts": {
