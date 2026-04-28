@@ -4,6 +4,10 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [1.0.3]
+
+- Add .vscode directory with launch.json for testing the extension locally
+
 ## [1.0.2]
 
 - Rename `style.css` to `styles.css`
