@@ -88,12 +88,6 @@
   vertical-align: middle;
 }
 
-/* code elements */
-
-/* .vscode-body code {
-  color: var(--vscode-editor-foreground, #fafbfc) !important;
-} */
-
 /* highlight-js comments */
 
 .hljs-comment {

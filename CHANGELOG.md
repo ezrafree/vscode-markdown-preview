@@ -4,6 +4,13 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [1.1.0]
+
+- Convert project to ES modules (ESM)
+- Replace `vscode-test` integration test runner with plain Mocha
+- Fix ESLint scanning `.vscode-test/` directory
+- Remove unused commented-out CSS rule for code element color
+
 ## [1.0.3]
 
 - Add .vscode directory with launch.json for testing the extension locally
