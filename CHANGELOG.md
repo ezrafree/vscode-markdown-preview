@@ -4,6 +4,10 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [1.1.1]
+
+- Update project README
+
 ## [1.1.0]
 
 - Convert project to ES modules (ESM)

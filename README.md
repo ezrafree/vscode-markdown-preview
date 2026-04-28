@@ -31,3 +31,8 @@ This extension can be installed through the VS Code Marketplace:
 ## My Other Extensions
 
 > Also check out [EZ Snippets](https://marketplace.visualstudio.com/items?itemName=ezrafree.ez-snippets), a collection of useful code snippets for web development.
+
+## My Other Projects
+
+> You can also check out my other projects on my portfolio:
+> [www.quietmindcreative.com/portfolio/](https://www.quietmindcreative.com/portfolio/)
