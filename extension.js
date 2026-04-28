@@ -1,4 +1,4 @@
-function activate(context) {
+function activate(_context) {
   return {
     extendMarkdownIt(md) {
       const defaultFence = md.renderer.rules.fence;

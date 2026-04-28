@@ -14,7 +14,7 @@ Markdown Preview - A VS Code extension that enhances the Markdown Preview panel 
 - `images/` – Images which are used in this project's `README.md` document
 - `extension.js`
 - `preview.js`
-- `style.css`
+- `styles.css`
 
 ## Commands
 
