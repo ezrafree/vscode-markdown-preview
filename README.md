@@ -26,13 +26,16 @@ This VS Code extension adjusts the styles of the markdown preview.
 
 This extension can be installed through the VS Code Marketplace:
 
-[https://marketplace.visualstudio.com/items?itemName=ezrafree.markdown-preview](https://marketplace.visualstudio.com/items?itemName=ezrafree.markdown-preview)
+https://marketplace.visualstudio.com/items?itemName=ezrafree.markdown-preview
 
 ## My Other Extensions
 
-> Also check out [EZ Snippets](https://marketplace.visualstudio.com/items?itemName=ezrafree.ez-snippets), a collection of useful code snippets for web development.
+You can check out my other extensions on the Visual Studio Marketplace:
+
+https://marketplace.visualstudio.com/publishers/ezrafree
 
 ## My Other Projects
 
-> You can also check out my other projects on my portfolio:
-> [www.quietmindcreative.com/portfolio/](https://www.quietmindcreative.com/portfolio/)
+You can check out my other projects on my portfolio:
+
+https://www.quietmindcreative.com/portfolio/
