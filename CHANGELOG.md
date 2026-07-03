@@ -4,6 +4,12 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [1.1.2]
+
+- Bump js-yaml to address a security advisory
+- Update development dependencies (eslint, mocha, globals, @types/node, @types/vscode)
+- Update project README
+
 ## [1.1.1]
 
 - Update project README
