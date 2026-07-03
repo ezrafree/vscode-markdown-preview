@@ -7,6 +7,7 @@ All notable changes to the "markdown-preview" extension will be documented in th
 ## [1.1.2]
 
 - Bump js-yaml to address a security advisory
+- Raise the minimum supported VS Code version to 1.125
 - Update development dependencies (eslint, mocha, globals, @types/node, @types/vscode)
 - Update project README
 
