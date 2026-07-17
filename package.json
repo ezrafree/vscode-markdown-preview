@@ -39,7 +39,7 @@
 		"eslint": "^10.7.0",
 		"globals": "^17.7.0",
 		"mocha": "^11.7.6",
-		"typescript": "^6.0.3"
+		"typescript": "^7.0.2"
 	},
 	"__metadata": {
 		"id": "1a944173-5048-4a9b-b1e2-7dec5e78ebe4",
