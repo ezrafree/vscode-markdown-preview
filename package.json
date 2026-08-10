@@ -38,7 +38,7 @@
 		"@types/vscode": "^1.125.0",
 		"eslint": "^10.8.0",
 		"globals": "^17.8.0",
-		"mocha": "^11.7.6",
+		"mocha": "^11.8.0",
 		"typescript": "^7.0.2"
 	},
 	"__metadata": {
