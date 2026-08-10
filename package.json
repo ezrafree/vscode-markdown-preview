@@ -37,7 +37,7 @@
 		"@types/node": "^26.1.2",
 		"@types/vscode": "^1.125.0",
 		"eslint": "^10.8.0",
-		"globals": "^17.8.0",
+		"globals": "^17.9.0",
 		"mocha": "^11.8.0",
 		"typescript": "^7.0.2"
 	},
