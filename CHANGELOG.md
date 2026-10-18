@@ -4,6 +4,14 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [1.2.0]
+
+- Render task list checkboxes (`- [ ]` and `- [x]`) in the markdown preview
+- Clicking a checkbox in the preview updates the markdown file in the editor (the file is not saved)
+- Other extensions that render markdown checkboxes now clash with this one, so disable them
+- Hide VS Code's built-in code block copy button, which duplicated this extension's
+- Run unit tests against markdown-it and a mocked `vscode` module
+
 ## [1.1.2]
 
 - Bump js-yaml to address a security advisory
