@@ -121,6 +121,11 @@
 
 /* code block copy button */
 
+/* VS Code 1.132+ adds its own copy button in the same spot; ours trims the trailing newline */
+.vscode-body .code-block-copy-button {
+  display: none;
+}
+
 .code-block-wrapper {
   position: relative;
 }
