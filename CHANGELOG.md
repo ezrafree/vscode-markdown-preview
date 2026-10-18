@@ -11,6 +11,8 @@ All notable changes to the "markdown-preview" extension will be documented in th
 - Other extensions that render markdown checkboxes now clash with this one, so disable them
 - Hide VS Code's built-in code block copy button, which duplicated this extension's
 - Run unit tests against markdown-it and a mocked `vscode` module
+- Raise the minimum supported VS Code version to 1.137
+- Update development dependencies (eslint, mocha, globals, typescript, @types/node, @types/vscode)
 
 ## [1.1.2]
 
