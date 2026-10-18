@@ -4,6 +4,10 @@
 
 All notable changes to the "markdown-preview" extension will be documented in this file.
 
+## [1.2.1]
+
+- Fix task list checkboxes sitting too high in the markdown preview
+
 ## [1.2.0]
 
 - Render task list checkboxes (`- [ ]` and `- [x]`) in the markdown preview
