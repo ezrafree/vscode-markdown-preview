@@ -3,6 +3,7 @@ import { activate } from '../../extension.js';
 
 function createMockMd(fenceHtml) {
   return {
+    core: { ruler: { after() {} } },
     renderer: {
       rules: {
         fence: () => fenceHtml,
@@ -11,9 +12,13 @@ function createMockMd(fenceHtml) {
   };
 }
 
+function createContext() {
+  return { subscriptions: [], extension: { id: 'ezrafree.markdown-preview' } };
+}
+
 suite('activate()', () => {
   test('returns an object with extendMarkdownIt', () => {
-    const result = activate({});
+    const result = activate(createContext());
     assert.strictEqual(typeof result.extendMarkdownIt, 'function');
   });
 });
@@ -21,22 +26,22 @@ suite('activate()', () => {
 suite('extendMarkdownIt()', () => {
   test('returns the md instance', () => {
     const md = createMockMd('<pre><code>hello</code></pre>');
-    const { extendMarkdownIt } = activate({});
+    const { extendMarkdownIt } = activate(createContext());
     const result = extendMarkdownIt(md);
     assert.strictEqual(result, md);
   });
 
   test('overrides the fence renderer', () => {
     const original = () => '';
-    const md = { renderer: { rules: { fence: original } } };
-    const { extendMarkdownIt } = activate({});
+    const md = { core: { ruler: { after() {} } }, renderer: { rules: { fence: original } } };
+    const { extendMarkdownIt } = activate(createContext());
     extendMarkdownIt(md);
     assert.notStrictEqual(md.renderer.rules.fence, original);
   });
 
   test('wraps fence output in .code-block-wrapper', () => {
     const md = createMockMd('<pre><code>hello</code></pre>');
-    const { extendMarkdownIt } = activate({});
+    const { extendMarkdownIt } = activate(createContext());
     extendMarkdownIt(md);
     const output = md.renderer.rules.fence([], 0, {}, {}, {});
     assert.ok(output.includes('code-block-wrapper'), 'missing code-block-wrapper');
@@ -44,7 +49,7 @@ suite('extendMarkdownIt()', () => {
 
   test('includes copy button', () => {
     const md = createMockMd('<pre><code>hello</code></pre>');
-    const { extendMarkdownIt } = activate({});
+    const { extendMarkdownIt } = activate(createContext());
     extendMarkdownIt(md);
     const output = md.renderer.rules.fence([], 0, {}, {}, {});
     assert.ok(output.includes('copy-code-btn'), 'missing copy-code-btn');
@@ -53,7 +58,7 @@ suite('extendMarkdownIt()', () => {
   test('preserves original fence html', () => {
     const fenceHtml = '<pre><code>const x = 1;</code></pre>';
     const md = createMockMd(fenceHtml);
-    const { extendMarkdownIt } = activate({});
+    const { extendMarkdownIt } = activate(createContext());
     extendMarkdownIt(md);
     const output = md.renderer.rules.fence([], 0, {}, {}, {});
     assert.ok(output.includes(fenceHtml), 'original fence html was not preserved');

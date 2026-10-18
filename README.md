@@ -20,7 +20,13 @@ This VS Code extension adjusts the styles of the markdown preview.
 - Adds margin and padding to blockquotes.
 - Adds borders to tables.
 - Sets a max-width for easier reading.
-- Styles checkbox in markdown preview (when [Markdown Checkboxes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-checkbox) is installed)
+- Renders task list checkboxes (`- [ ]` and `- [x]`). Clicking one updates the markdown file in the editor (the file is not saved).
+
+## Checkboxes
+
+The first time you click a checkbox, VS Code asks whether to allow this extension to open a URI. Check "Do not ask me again for this extension" to skip the prompt from then on.
+
+Other extensions that render markdown checkboxes will clash with this one, so disable them to use these checkboxes.
 
 ## Install Instructions
 

@@ -15,7 +15,9 @@
 	"categories": [
 		"Other"
 	],
-	"activationEvents": [],
+	"activationEvents": [
+		"onUri"
+	],
 	"type": "module",
 	"main": "./extension.js",
 	"contributes": {
@@ -30,7 +32,7 @@
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "yarn run lint",
-		"test": "mocha --ui tdd 'test/**/*.test.js'"
+		"test": "mocha --ui tdd --require ./test/setup.js 'test/**/*.test.js'"
 	},
 	"devDependencies": {
 		"@types/mocha": "^10.0.10",
@@ -38,6 +40,7 @@
 		"@types/vscode": "^1.125.0",
 		"eslint": "^10.6.0",
 		"globals": "^17.7.0",
+		"markdown-it": "^14.1.0",
 		"mocha": "^11.7.6",
 		"typescript": "^6.0.3"
 	},
