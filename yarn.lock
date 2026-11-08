@@ -139,10 +139,10 @@
   dependencies:
     undici-types "~8.9.0"
 
-"@types/vscode@^1.137.0":
-  version "1.137.0"
-  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.137.0.tgz#73fd4ddb3e6b06a66ae74b42d8950506b6469a2c"
-  integrity sha512-0dc/BBWxkyUsJzXIZ7PkKSalThmS4xiBT+8YEDiWdCefRKHGVV5ZNkM5NB5ULYamallYJujIfncNoXWFlyzL8A==
+"@types/vscode@^1.144.0":
+  version "1.144.0"
+  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.144.0.tgz#5defeb1db837aa8b1ad631e625eb27ef83e1a5bc"
+  integrity sha512-IDd4eQzu6MjGucfaQF0V/TY5vHX9o1albkKyZD6K/iVXSCcL5NSj4KW1wWfx1QDadPKWyxMaE/+M1wKLCJlXpA==
 
 "@typescript/typescript-aix-ppc64@7.0.2":
   version "7.0.2"
